@@ -17,4 +17,8 @@ public with sharing class VSDemoClass {
     public integer div(integer a, integer b){
         return a/b;
     }
+    
+    public void random(){
+    }
+    
 }
