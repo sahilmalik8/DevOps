@@ -18,7 +18,10 @@ public with sharing class VSDemoClass {
         return a/b;
     }
     
-    public void random(){
+    public void random(integer a, integer b){
+        integer a1 = a * b;
+        integer b1 = b * a;
+        return a1+b1;
     }
     
 }
